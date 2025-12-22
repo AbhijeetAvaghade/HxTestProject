@@ -68,23 +68,13 @@
 			  <artifactId>jib-maven-plugin</artifactId>
 			  <version>3.4.0</version>
 			 
-			  <configuration>
-			  
+			  <configuration>			
 				<from>
-					  <!-- Eclipse Temurin JRE 21 (smallest runtime); use JDK if you need tools -->
-					  <image>eclipse-temurin:21-jre</image>
-					  <!-- Optional: pin platform for Linux amd64 -->
-					  <platforms>
-						<platform>
-						  <architecture>amd64</architecture>
-						  <os>linux</os>
-						</platform>
-					  </platforms>
-					</from>
-
+				  <image>mycontainerregistryus.azurecr.io/eclipse-temurin:21-jre</image>
+				</from>
 				<!-- Target image -->
 				<to>
-				  <image>mycontainerregistryus.azurecr.io/myfirstdockerimage</image>
+				  <image>mycontainerregistryus.azurecr.io/myfirstdockerimage:latest</image>
 				</to>
 			 
 				<!-- Container configuration -->
