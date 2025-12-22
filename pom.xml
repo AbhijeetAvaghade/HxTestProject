@@ -70,7 +70,7 @@
 			 
 			  <configuration>			
 				<from>
-				  <image>mycontainerregistryus.azurecr.io/eclipse-temurin:21-jre</image>
+				  <image>mcr.microsoft.com/openjdk/jdk:21-ubuntu</image>
 				</from>
 				<!-- Target image -->
 				<to>
