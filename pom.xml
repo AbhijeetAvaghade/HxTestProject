@@ -63,6 +63,29 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
+			<plugin>
+			  <groupId>com.google.cloud.tools</groupId>
+			  <artifactId>jib-maven-plugin</artifactId>
+			  <version>3.4.0</version>
+			 
+			  <configuration>
+				<!-- Target image -->
+				<to>
+				  <image>mycontainerregistryus.azurecr.io/MyContainerRegistryUS</image>
+				</to>
+			 
+				<!-- Container configuration -->
+				<container>
+				  <ports>
+					<port>8080</port>
+				  </ports>
+				  <jvmFlags>
+					<jvmFlag>-Xms512m</jvmFlag>
+					<jvmFlag>-Xmx512m</jvmFlag>
+				  </jvmFlags>
+				</container>
+			  </configuration>
+			</plugin>
 		</plugins>
 	</build>
 	<repositories>
