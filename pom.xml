@@ -71,7 +71,7 @@
 			  <configuration>
 				<!-- Target image -->
 				<to>
-				  <image>mycontainerregistryus.azurecr.io/MyContainerRegistryUS</image>
+				  <image>mycontainerregistryus.azurecr.io/myfirstdockerimage</image>
 				</to>
 			 
 				<!-- Container configuration -->
